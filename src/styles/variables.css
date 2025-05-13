@@ -1,0 +1,18 @@
+:root {
+  --main-font: 'Inter Variable';
+  --accent-font: 'PressStart2P';
+  --bold-font-weight: 700;
+  --normal-font-weight: 400;
+  --header-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --main-font-size: 1.125rem;
+  --button-font-size: 14px;
+  --line-height: 1.17;
+  --bg-color: #fff;
+  --text-color: #000;
+  --text-shadow: rgb(255 255 255, 0.6);
+  --backdrop-filter: rgb(0 0 0 / 0.8);
+  --icon-contour-color: #000;
+  --icon-fill-color: #F00;
+  --inline-size: clamp(375px, 100%, 700px);
+  --border: 2px solid var(--text-color, #000)
+}
