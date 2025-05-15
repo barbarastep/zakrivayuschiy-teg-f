@@ -9,7 +9,7 @@
   --line-height: 1.17;
   --bg-color: #fff;
   --text-color: #000;
-  --text-shadow: rgb(255 255 255, 0.6);
+  --text-shadow: rgb(255 255 255 / 0.6);
   --backdrop-filter: rgb(0 0 0 / 0.8);
   --icon-contour-color: #000;
   --icon-fill-color: #F00;
