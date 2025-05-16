@@ -209,10 +209,10 @@
 .card__icon-button {
   border: none;
   background-color: transparent;
-  /* transition: outline 0.3s ease; */
-    display: flex;
-    padding: 0;
-    align-items: center;
+  transition: outline 0.3s ease;
+  display: flex;
+  padding: 0;
+  align-items: center;
 }
 
 .card__icon-button:focus {
@@ -235,17 +235,17 @@
 
 .contour {
   fill: var(--icon-contour-color, #000);
-  transition: fill 0.1s;
+  transition: fill 0.1s linear 0s;
 }
 
 .main-body {
   fill: transparent;
-  transition: fill 0.3s;
+  transition: fill 0.3s linear 0s;
 }
 
 .core {
   fill: transparent;
-  transition: fill 0.3s easy 0.03s;
+  transition: fill 0.3s linear 0.03s;
 }
 
 .card__icon-button:hover .main-body {
@@ -280,17 +280,17 @@
 
 .like-icon.is-liked .contour {
   fill: var(--icon-fill-color, #F00);
-  transition: fill 0.3s ease 0.06s;
+  transition: fill 0.3s linear 0.06s;
 }
 
 .like-icon.is-liked .main-body {
   fill: var(--icon-fill-color, #F00);
-  transition: fill 0.3s ease 0.05s;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon.is-liked .core {
   fill: var(--icon-fill-color, #F00);
-  transition: fill 0.3s ease;
+  transition: fill 0.3s linear;
 }
 
 .sparks {
