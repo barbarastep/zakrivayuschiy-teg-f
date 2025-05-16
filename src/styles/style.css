@@ -235,14 +235,17 @@
 
 .contour {
   fill: var(--icon-contour-color, #000);
+  transition: fill 0.1s;
 }
 
 .main-body {
   fill: transparent;
+  transition: fill 0.3s;
 }
 
 .core {
   fill: transparent;
+  transition: fill 0.3s easy 0.03s;
 }
 
 .card__icon-button:hover .main-body {
@@ -252,6 +255,7 @@
 
 .card__icon-button:hover .core {
   fill: var(--icon-contour-color, #000);
+  transition-delay: 0s;
 }
 
 .card__icon-button:not(:hover) .main-body {
@@ -269,6 +273,7 @@
 
 .card__icon-button:active .core {
   fill: var(--icon-fill-color, #F00);
+  transition-delay: 0s;
 }
 
 /* Ставят лайк */
